@@ -38,11 +38,6 @@ def obtener_numero(texto):
     except:
         return 0
 
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-import time
-
 def scrapear_facebook():
     driver = iniciar_chrome()
     driver.get("https://www.facebook.com/")
